@@ -15,7 +15,7 @@ lst = [random.randint(0, 9) for i in range(6)]
 print("номер билета " + "".join(map(str, lst)) + "->")
 first = second = 0
 for i in range(0, 3):
-    first = first + lst[i]
+    first += lst[i]
 for i in range(3, len(lst)):
     second = second + lst[i]
 # print(first)
