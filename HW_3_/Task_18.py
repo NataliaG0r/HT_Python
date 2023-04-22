@@ -20,8 +20,7 @@ lstA = [random.randint(-10, 10) for i in range(n)]
 print(lstA)
 x = int(input("Введите число Х: "))
 print(x)
-# lstDiff = [for i in range(n)]
-# print(lstDiff) 
+
 Diff = {}
 for i in range(len(lstA)):
         Diff[lstA[i]] = abs((lstA[i] - x))
