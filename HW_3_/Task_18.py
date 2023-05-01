@@ -23,7 +23,7 @@ print(x)
 
 Diff = {}
 for i in range(len(lstA)):
-        Diff[lstA[i]] = abs((lstA[i] - x))
+        Diff[lstA[i]] = abs(lstA[i] - x)
 print(Diff)
 keyMin = min(Diff, key = lambda k: Diff[k])
 print(f"один из самых близких к заданному числу {x} по величине элемент : {keyMin}")
