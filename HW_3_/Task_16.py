@@ -19,7 +19,7 @@ print(lst)
 x = int(input("Введите число , которое нужно найти в массиве: "))
 
 sum = 0
-for i in range(len(lst)):
+for i in range(n):
     if lst[i] == x:
         sum += 1
 print(f"{sum} раз(а) встречается  число {x} в заданном массиве")
