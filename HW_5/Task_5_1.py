@@ -8,12 +8,9 @@ A = 3; B = 5 -> 243 (3⁵)
     A = 2; B = 3 -> 8 '''
     
 def step(b):
-    c = 1
-    # k = 0
+   
     if b == 0:
-        # c = c*a
-        # k += 1
-        return 1
+            return 1
     if b > 0:
         return(step(b-1))*a
     elif b < 0: 
